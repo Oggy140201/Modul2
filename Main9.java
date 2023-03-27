@@ -12,11 +12,11 @@ public class Main9 {
             arr[i] = scanner.nextInt();
         }
         System.out.println(Arrays.toString(arr));
-//        int []arrNew = new int[arr.length];
-//        for(int j = 0,x = arr.length - 1; j < arr.length;x--,j++){
-//            arrNew[j] = arr[x];
-//        }
-//        System.out.println("Đây là mảng ngược: ");
-//        System.out.println(Arrays.toString(arrNew));
+        int []arrNew = new int[arr.length];
+        for(int j = 0,x = arr.length - 1; j < arr.length;x--,j++){
+            arrNew[j] = arr[x];
+        }
+        System.out.println("Đây là mảng ngược: ");
+        System.out.println(Arrays.toString(arrNew));
     }
 }
